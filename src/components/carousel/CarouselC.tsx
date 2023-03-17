@@ -1,17 +1,16 @@
-import React from "react";
-import Carousel from "react-bootstrap/Carousel";
-import img4 from "../../assets/img4.jpg";
-import img2 from "../../assets/img2.jpg";
-import img1 from "../../assets/img1.jpg";
-
+import React from 'react'
+import Carousel from 'react-bootstrap/Carousel'
+import img4 from '../../assets/img4.jpg'
+import img2 from '../../assets/img2.jpg'
+import img1 from '../../assets/img1.jpg'
 export const CarouselC = () => {
   return (
     <Carousel fade>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className='d-block w-100 img-fluid'
           src={img1}
-          alt="Group of people holding hand together"
+          alt='Group of people holding hand together'
         />
         <Carousel.Caption>
           <h3>First slide label</h3>
@@ -19,7 +18,11 @@ export const CarouselC = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100" src={img2} alt="Second slide" />
+        <img
+          className='d-block w-100 img-fluid'
+          src={img2}
+          alt='Second slide'
+        />
 
         <Carousel.Caption>
           <h3>Second slide label</h3>
@@ -27,7 +30,7 @@ export const CarouselC = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100" src={img4} alt="Third slide" />
+        <img className='d-block w-100 img-fluid' src={img4} alt='Third slide' />
 
         <Carousel.Caption>
           <h3>Third slide label</h3>
@@ -37,5 +40,5 @@ export const CarouselC = () => {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
-  );
-};
+  )
+}

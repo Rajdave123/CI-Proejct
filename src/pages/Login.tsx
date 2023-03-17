@@ -1,5 +1,4 @@
 import React from 'react'
-import { Input } from '../components/Form/Input'
 import { CarouselC } from './../components/carousel/CarouselC'
 import { Col, Container, Row } from 'react-bootstrap'
 import { LoginInput } from '../components/Form/LoginInput'
@@ -8,10 +7,10 @@ export const Login = () => {
   return (
     <Container fluid>
       <Row className='align-items-center'>
-        <Col sm={9}>
+        <Col md={9} className='ps-0'>
           <CarouselC />
         </Col>
-        <Col sm={3}>
+        <Col md={3}>
           <LoginInput />
         </Col>
       </Row>

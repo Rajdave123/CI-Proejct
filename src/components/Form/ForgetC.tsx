@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Container, Form } from "react-bootstrap";
+import { Button, Form } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 export const ForgetC = () => {
@@ -21,7 +21,7 @@ export const ForgetC = () => {
 
         <div className="d-grid mt-4">
           <Button variant="outline-warning" className="mb-1 rounded-pill">
-            <Link to="/" style={{ textDecoration: "none" }}>
+            <Link to="/reset" style={{ textDecoration: "none" }}>
               Reset my Password
             </Link>
           </Button>
